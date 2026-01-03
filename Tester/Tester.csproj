@@ -14,7 +14,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AlternativeStrategy\AlternativeStrategy.csproj" />
+    <ProjectReference Include="..\AntiSOLID\AntiRepositorySOLID.csproj" />
+    <ProjectReference Include="..\AntiStrategySOLID\AntiStrategySOLID.csproj" />
     <ProjectReference Include="..\ProductOfSynopsis\ProductOfSynopsis.csproj" />
+    <ProjectReference Include="..\Repository&amp;StrategyPatternTogether\RepositoryAndStrategyPatternTogether.csproj" />
   </ItemGroup>
 
   <ItemGroup>

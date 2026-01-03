@@ -12,10 +12,6 @@ namespace ProductOfSynopsis.Repositories
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        //Har to repositories der har samme metoder, 
-        //havde jeg ikke det så havde jeg haft en problem
-        //med at jeg skulle sikre mig at det ikke var
-        //repositoriet jeg arbejdede med hver gang jeg skiftede strategy.
         private readonly IStrategy<T> _strategy;
         public Repository(IStrategy<T> strategy)
         {

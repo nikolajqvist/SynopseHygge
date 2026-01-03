@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Repository_StrategyPatternTogether</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Repository&amp;StrategyPatternTogether">
+      <HintPath>bin\Debug\net8.0\Repository&amp;StrategyPatternTogether.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

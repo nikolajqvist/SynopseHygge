@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlternativeStrategy
+namespace AlternativeStrategy.WIthAbstract
 {
     public class PPerson
     {

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlternativeStrategy", "Alte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiRepositorySOLID", "AntiSOLID\AntiRepositorySOLID.csproj", "{8238FC65-9725-4375-AA28-E56AD8E175D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiStrategySOLID", "AntiStrategySOLID\AntiStrategySOLID.csproj", "{F792E52D-6BB9-4478-ACF7-844D1A8D2AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryAndStrategyPatternTogether", "Repository&StrategyPatternTogether\RepositoryAndStrategyPatternTogether.csproj", "{27FFB6FE-396F-45D1-A21C-BCE2F9F2E9F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8238FC65-9725-4375-AA28-E56AD8E175D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8238FC65-9725-4375-AA28-E56AD8E175D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8238FC65-9725-4375-AA28-E56AD8E175D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F792E52D-6BB9-4478-ACF7-844D1A8D2AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F792E52D-6BB9-4478-ACF7-844D1A8D2AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F792E52D-6BB9-4478-ACF7-844D1A8D2AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F792E52D-6BB9-4478-ACF7-844D1A8D2AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FFB6FE-396F-45D1-A21C-BCE2F9F2E9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FFB6FE-396F-45D1-A21C-BCE2F9F2E9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FFB6FE-396F-45D1-A21C-BCE2F9F2E9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FFB6FE-396F-45D1-A21C-BCE2F9F2E9F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

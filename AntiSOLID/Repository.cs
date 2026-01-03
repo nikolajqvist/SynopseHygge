@@ -8,7 +8,11 @@ namespace AntiRepositorySOLID
 {
     public class Repository:IRepository
     {
-        private List<Person> _people = new List<Person>();
+        private List<Person> _people;
+        public Repository()
+        {
+            _people = new List<Person>();
+        }
         public Person Add(Person toadd)
         {
             _people.Add(toadd);
