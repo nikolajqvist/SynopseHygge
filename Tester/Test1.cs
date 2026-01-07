@@ -53,7 +53,11 @@ namespace Tester
         [TestMethod]
         public void TestMethod4()
         {
-            AbstractTemplate repo = new Strategy(new MemoryRepo());
+           // TemplateStrategy repo = new TemplateStrategy();
+
+            //repo.GetAll();
+
+            
         }
     }
 }

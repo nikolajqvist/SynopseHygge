@@ -10,20 +10,32 @@ namespace AlternativeStrategy.TemplatePattern
 {
     public abstract class AbstractTemplate
     {
-        public void AddFlow(PPerson person)
+        public void AddNewUser(PPerson person, UserLogin userLogin)
         {
             Validate(person);
-            Add(person);
+            ValidateLogin(userLogin);
+            AddUser(person);
+            AddUserLogin(userLogin);
             Success(person);
         }
-        public void GetFlow(PPerson person)
+        public void GetFlow()
         {
-            GetAll();
-            Success(person);
+            PPerson pp = new PPerson(3, "Karl"); 
+            Add(pp);
+            List<PPerson> persons = GetAllProducts();
+            foreach (PPerson person in persons)
+            {
+                Console.WriteLine(person.Name);
+            }
+
         }
         public abstract PPerson Validate(PPerson person);
+        public abstract UserLogin ValidateLogin(UserLogin userLogin);
         public abstract PPerson Add(PPerson person);
-        public abstract List<PPerson> GetAll();
+        public abstract PPerson AddUser(PPerson person);
+        public abstract PPerson AddUserLogin(UserLogin userlogin);
+        public abstract List<PPerson> GetAllUsers();
+        public abstract List<PPerson> GetAllProducts();
         public virtual void Success(PPerson person)
         {
             Console.WriteLine($"Success {person.Name} is added to database.");
